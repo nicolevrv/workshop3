@@ -40,7 +40,7 @@ TOPIC        = 'happiness-predictions'
 GROUP_ID     = 'happiness-consumer-group'
 
 DB_URL = 'postgresql+psycopg2://etl_user:etl_pass@127.0.0.1:5433/happiness_db'
-
+<
 REQUIRED_FIELDS  = ['country', 'year', 'gdp', 'family', 'health', 'freedom', 'generosity', 'corruption']
 NUMERIC_FEATURES = ['gdp', 'family', 'health', 'freedom', 'generosity', 'corruption']
 
